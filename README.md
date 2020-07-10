@@ -33,12 +33,6 @@
 
 - List recent donations / Top donations
 
-### Social
-
-> POST https://siteurl/social
-
-- Social sites
-
 ### Contact Us
 
 > POST https://siteurl/contact
@@ -54,6 +48,9 @@
 ## Footers
 
 - Social
+  - Facebook
+  - Instagram
+  - Twitter
 - FAQ
 - Contact Us
 - About Us
