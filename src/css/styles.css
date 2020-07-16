@@ -74,10 +74,10 @@ body {
 }
 
 .slidebtnc {
-    transform: rotate(90deg);
+     transform: rotate(90deg); 
     position: fixed;
-    width: min-content;
-    height: min-content;
+    width: 8rem;
+    height: 2rem;
     margin: 0;
     top: 50%;
     left: 90%;
