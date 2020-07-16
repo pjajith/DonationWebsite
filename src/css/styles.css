@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.about {
+    color: white!important;
+    font-size: 2.5vh;
+}
+
+.bn {
+    border: 0!important;
+    padding: 1vh 0vh!important;
+}
+
+.title {
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+    font-size: 4vh;
+}
+
+.footer {
+    margin: 0rem!important;
+    height: 10.1vh;
+    background-color: #184d47!important;
+}
+
+.header {
+    margin: 0rem!important;
+    background-color: #184d47!important;
+}
+
+.main {
+    height: 80vh;
+    background-color: #96bb7c;
+}
+
+.slideitem {
+    height: 80vh;
+}
