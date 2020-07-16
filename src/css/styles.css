@@ -3,37 +3,86 @@ body {
 }
 
 .about {
-    color: white!important;
+    color: #b0eacd !important;
     font-size: 2.5vh;
 }
 
 .bn {
-    border: 0!important;
-    padding: 1vh 0vh!important;
+    border: 0 !important;
+    padding: 1vh 0vh !important;
 }
 
 .title {
     font-family: 'Berkshire Swash', cursive;
-    color: white;
+    color: #21bf73 !important;
     font-size: 4vh;
 }
 
+.faq {
+    padding: 2%;
+    color: #f9f6f7;
+    text-decoration: none;
+}
+
+.faq:link {
+    text-decoration: none;
+}
+
+.faq:visited {
+    text-decoration: none;
+}
+
+.faq:hover {
+    text-decoration: wavy;
+    color: white;
+}
+
+.faq:active {
+    text-decoration: none;
+}
+
 .footer {
-    margin: 0rem!important;
-    height: 10.1vh;
-    background-color: #184d47!important;
+    height: 10.5vh;
+    background-color: #21bf73 !important;
+    text-align: center;
 }
 
 .header {
-    margin: 0rem!important;
-    background-color: #184d47!important;
+    margin: 0rem !important;
+    background-color: #ffffff !important;
+}
+
+.invi {
+    visibility: hidden;
 }
 
 .main {
     height: 80vh;
-    background-color: #96bb7c;
+    background-color: #f9f6f7;
+    margin: 0;
 }
 
-.slideitem {
+.social {
+    padding: 2% 0%;
+}
+
+.slide-button {
+    background-color: #21bf73 !important;
+    height: 2rem !important;
+    width: 2rem !important;
+    border-radius: 100%;
+}
+
+.slidebtnc {
+    transform: rotate(90deg);
+    position: fixed;
+    width: min-content;
+    height: min-content;
+    margin: 0;
+    top: 50%;
+    left: 90%;
+}
+.item {
     height: 80vh;
+    margin: 0;
 }
