@@ -12,6 +12,11 @@ body {
     padding: 1vh 0vh !important;
 }
 
+.carousel-indicators{
+    display: block;
+    text-align: right;
+}
+
 .title {
     font-family: 'Berkshire Swash', cursive;
     color: #21bf73 !important;
@@ -52,7 +57,7 @@ body {
     background-color: #ffffff !important;
 }
 
-.invi {
+.hidden {
     visibility: hidden;
 }
 
@@ -71,17 +76,33 @@ body {
     height: 2rem !important;
     width: 2rem !important;
     border-radius: 100%;
+    margin: 0.5rem;
+    border: 0!important;
 }
 
+
+
 .slidebtnc {
-     transform: rotate(90deg); 
     position: fixed;
-    width: 8rem;
-    height: 2rem;
     margin: 0;
-    top: 50%;
-    left: 90%;
+    top: 40%;
+    left: 95%;
 }
+
+.slide-button:hover .slidehover{
+    visibility: visible;
+    position: relative;
+    right: 8rem; 
+    font-size: 1.5rem;
+    background-color: #21bf73;
+    width: 10rem;
+    border-radius: 10%;
+    color: white;
+    border-color: tomato;
+    border-style: solid;
+    mask-border-width: thick;
+}
+
 .item {
     height: 80vh;
     margin: 0;
