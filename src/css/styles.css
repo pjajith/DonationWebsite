@@ -3,7 +3,7 @@ body {
 }
 
 .about {
-    color: #b0eacd !important;
+    color: #3b6978 !important;
     font-size: 2.5vh;
 }
 
@@ -63,7 +63,7 @@ body {
 
 .main {
     height: 80vh;
-    background-color: #f9f6f7;
+    background-color: #5fdde5;
     margin: 0;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .slide-button {
-    background-color: #21bf73 !important;
+    background-color: #2b580c !important;
     height: 2rem !important;
     width: 2rem !important;
     border-radius: 100%;
@@ -88,19 +88,20 @@ body {
     top: 40%;
     left: 95%;
 }
+.slide-button:hover {
+    visibility: hidden;
+}
 
 .slide-button:hover .slidehover{
     visibility: visible;
     position: relative;
-    right: 8rem; 
+    right: 6rem; 
     font-size: 1.5rem;
-    background-color: #21bf73;
-    width: 10rem;
+    width: 8rem;
+    height: 2rem;
     border-radius: 10%;
     color: white;
-    border-color: tomato;
-    border-style: solid;
-    mask-border-width: thick;
+    opacity: 1!important;
 }
 
 .item {
