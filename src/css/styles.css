@@ -68,8 +68,29 @@ body {
 }
 
 .social {
-    padding: 2% 0%;
+    padding: 2% 1%;
+    color: #f9f6f7;
+    text-decoration: none;
 }
+
+
+.social:link {
+    text-decoration: none;
+}
+
+.social:visited {
+    text-decoration: none;
+}
+
+.social:hover {
+    text-decoration: wavy;
+    color: white;
+}
+
+.social:active {
+    text-decoration: none;
+}
+
 
 .slide-button {
     background-color: #2b580c !important;

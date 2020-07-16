@@ -13,6 +13,18 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
+app.get('/about', (req, res) => {
+    res.render('about');
+});
+
+app.get('/contact', (req, res) => {
+    res.render('contact');
+});
+
+app.get('/faq', (req, res) => {
+    res.render('faq');
+});
+
 app.listen(process.env.PORT, () => {
     console.log('Server Up');
 });
