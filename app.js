@@ -21,8 +21,20 @@ app.get('/contact', (req, res) => {
     res.render('contact');
 });
 
+app.get('/contribution', (req, res) => {
+    res.render('postcontribution');
+});
+
+app.get('/donate', (req, res) => {
+    res.render('postdonate');
+});
+
 app.get('/faq', (req, res) => {
     res.render('faq');
+});
+
+app.get('/gallery', (req, res) => {
+    res.render('postgallery');
 });
 
 app.listen(process.env.PORT, () => {
